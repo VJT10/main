@@ -4,4 +4,6 @@ public class Greeter {
     public String sayHello() {
         return "DevOps Project for AchiStar Technologies";
     }
+    Greeter greeter = new Greeter();
+        System.out.println(greeter.sayHello());
 }
